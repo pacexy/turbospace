@@ -10,9 +10,17 @@
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.{js,json,css,ts,tsx,md}": "prettier --write",
+    "!(pnpm-lock).{yml,yaml}": "prettier --write",
+    "*.{js,ts,tsx}": "eslint --fix"
   },
   "devDependencies": {
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.7",
     "prettier": "^2.5.1",
     "turbo": "latest"
   },
