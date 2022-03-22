@@ -1,11 +1,11 @@
+import { Button } from 'literal-ui'
 import React from 'react'
-import { Button } from 'ui'
 
 export default function Web() {
   return (
     <div>
       <h1>Web</h1>
-      <Button />
+      <Button variant="filled">Button</Button>
     </div>
   )
 }
