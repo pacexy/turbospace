@@ -4,17 +4,17 @@ importers:
 
   .:
     specifiers:
-      '@typescript-eslint/eslint-plugin': ^5.16.0
+      '@typescript-eslint/eslint-plugin': 5.16.0
       eslint: 7.32.0
-      eslint-config-next: ^12.0.8
-      eslint-config-prettier: ^8.3.0
+      eslint-config-next: 12.1.0
+      eslint-config-prettier: 8.5.0
       eslint-plugin-react: 7.28.0
-      husky: ^7.0.4
-      lint-staged: ^12.3.7
-      prettier: ^2.6.0
-      prettier-plugin-tailwindcss: ^0.1.8
+      husky: 7.0.4
+      lint-staged: 12.3.7
+      prettier: 2.6.0
+      prettier-plugin-tailwindcss: 0.1.8
       turbo: latest
-      typescript: ^4.6.2
+      typescript: 4.6.2
     devDependencies:
       '@typescript-eslint/eslint-plugin': 5.16.0_eslint@7.32.0+typescript@4.6.2
       eslint: 7.32.0
@@ -32,17 +32,17 @@ importers:
     specifiers:
       '@turbospace/core': workspace:*
       '@turbospace/tsconfig': workspace:*
-      '@types/node': ^17.0.12
+      '@types/node': 17.0.22
       '@types/react': 17.0.37
-      autoprefixer: ^10.4.4
-      literal-ui: ^0.0.6
-      m3-tokens: ^0.0.3
+      autoprefixer: 10.4.4
+      literal-ui: 0.0.6
+      m3-tokens: 0.0.3
       next: 12.0.8
       next-transpile-modules: 9.0.0
-      postcss: ^8.4.12
+      postcss: 8.4.12
       react: 17.0.2
       react-dom: 17.0.2
-      tailwindcss: ^3.0.23
+      tailwindcss: 3.0.23
     dependencies:
       '@turbospace/core': link:../../packages/core
       next: 12.0.8_react-dom@17.0.2+react@17.0.2
@@ -62,11 +62,11 @@ importers:
   packages/core:
     specifiers:
       '@turbospace/tsconfig': workspace:*
-      '@types/react': ^17.0.37
-      '@types/react-dom': ^17.0.11
+      '@types/react': 17.0.42
+      '@types/react-dom': 17.0.14
     devDependencies:
       '@turbospace/tsconfig': link:../tsconfig
-      '@types/react': 17.0.41
+      '@types/react': 17.0.42
       '@types/react-dom': 17.0.14
 
   packages/tsconfig:
@@ -414,7 +414,7 @@ packages:
   /@types/react-dom/17.0.14:
     resolution: {integrity: sha512-H03xwEP1oXmSfl3iobtmQ/2dHF5aBHr8aUMwyGZya6OW45G+xtdzmq6HkncefiBt5JU8DVyaWl/nWZbjZCnzAQ==}
     dependencies:
-      '@types/react': 17.0.41
+      '@types/react': 17.0.42
     dev: true
 
   /@types/react/17.0.37:
@@ -425,8 +425,8 @@ packages:
       csstype: 3.0.11
     dev: true
 
-  /@types/react/17.0.41:
-    resolution: {integrity: sha512-chYZ9ogWUodyC7VUTRBfblysKLjnohhFY9bGLwvnUFFy48+vB9DikmB3lW0qTFmBcKSzmdglcvkHK71IioOlDA==}
+  /@types/react/17.0.42:
+    resolution: {integrity: sha512-nuab3x3CpJ7VFeNA+3HTUuEkvClYHXqWtWd7Ud6AZYW7Z3NH9WKtgU+tFB0ZLcHq+niB/HnzLcaZPqMJ95+k5Q==}
     dependencies:
       '@types/prop-types': 15.7.4
       '@types/scheduler': 0.16.2
