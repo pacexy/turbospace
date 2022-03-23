@@ -23,6 +23,8 @@ module.exports = {
           'sibling',
           'index',
         ],
+        pathGroups: [{ pattern: '@turbospace/**', group: 'internal' }],
+        pathGroupsExcludedImportTypes: ['builtin'],
       },
     ],
   },

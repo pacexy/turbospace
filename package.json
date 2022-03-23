@@ -1,5 +1,5 @@
 {
-  "name": "turborepo-basic-shared",
+  "name": "@turbospace/monorepo",
   "version": "0.0.0",
   "private": true,
   "workspaces": [
@@ -14,7 +14,7 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*.{js,json,css,ts,tsx,md}": "prettier --write",
+    "*.{js,json,css,ts,tsx,md,mdx}": "prettier --write",
     "!(pnpm-lock).{yml,yaml}": "prettier --write",
     "*.{js,ts,tsx}": "eslint --fix"
   },
