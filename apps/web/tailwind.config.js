@@ -1,4 +1,5 @@
 module.exports = {
+  darkMode: 'class',
   content: ['./pages/**/*.{tsx,ts}', './node_modules/literal-ui/dist/**/*'],
   theme: {
     extend: {},

@@ -18,7 +18,7 @@
     "@types/node": "^17.0.12",
     "@types/react": "17.0.37",
     "autoprefixer": "^10.4.4",
-    "literal-ui": "^0.0.3",
+    "literal-ui": "^0.0.6",
     "m3-tokens": "^0.0.3",
     "next-transpile-modules": "9.0.0",
     "postcss": "^8.4.12",
