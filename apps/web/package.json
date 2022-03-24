@@ -1,6 +1,5 @@
 {
   "name": "@turbospace/web",
-  "version": "0.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,12 +8,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@turbospace/core": "workspace:*",
     "next": "12.1.0",
-    "react": "17.0.2",
     "react-dom": "17.0.2",
-    "@turbospace/core": "workspace:*"
+    "react": "17.0.2"
   },
   "devDependencies": {
+    "@turbospace/tsconfig": "workspace:*",
     "@types/node": "17.0.22",
     "@types/react": "17.0.42",
     "autoprefixer": "10.4.4",
@@ -22,7 +22,6 @@
     "m3-tokens": "0.0.3",
     "next-transpile-modules": "9.0.0",
     "postcss": "8.4.12",
-    "tailwindcss": "3.0.23",
-    "@turbospace/tsconfig": "workspace:*"
+    "tailwindcss": "3.0.23"
   }
 }
