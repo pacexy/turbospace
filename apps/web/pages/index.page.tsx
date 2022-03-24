@@ -1,4 +1,4 @@
-import { Button, ColorScheme } from 'literal-ui'
+import { Button, ColorScheme } from '@literal-ui/core'
 import React from 'react'
 
 export default function Web() {

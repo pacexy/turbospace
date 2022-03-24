@@ -1,4 +1,4 @@
-import { PreventFlash } from 'literal-ui'
+import { PreventFlash } from '@literal-ui/core'
 import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
