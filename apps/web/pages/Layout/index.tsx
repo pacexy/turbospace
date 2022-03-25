@@ -1,7 +1,7 @@
 import { Footer } from './Footer'
 import { Header } from './Header'
 
-export default function Layout({ children }) {
+export const Layout: React.FC = ({ children }) => {
   return (
     <>
       <Header />
