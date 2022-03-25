@@ -18,7 +18,7 @@
     "@literal-ui/plugins": "^0.0.2",
     "@turbospace/tsconfig": "workspace:*",
     "@types/node": "17.0.22",
-    "@types/react": "17.0.42",
+    "@types/react": "17.0.43",
     "autoprefixer": "10.4.4",
     "m3-tokens": "0.0.3",
     "next-transpile-modules": "9.0.0",
