@@ -7,7 +7,6 @@ const withTM = require('next-transpile-modules')(['@turbospace/core'])
 module.exports = withPWA(
   withTM({
     reactStrictMode: true,
-    pageExtensions: ['page.tsx'],
     pwa: {
       dest: 'public',
     },
