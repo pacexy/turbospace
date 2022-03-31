@@ -30,7 +30,7 @@ importers:
 
   apps/web:
     specifiers:
-      '@literal-ui/core': ^0.0.2
+      '@literal-ui/core': ^0.0.4
       '@literal-ui/plugins': ^0.0.2
       '@turbospace/core': workspace:*
       '@turbospace/tsconfig': workspace:*
@@ -48,7 +48,7 @@ importers:
       react-icons: ^4.3.1
       tailwindcss: 3.0.23
     dependencies:
-      '@literal-ui/core': 0.0.2_react-dom@17.0.2
+      '@literal-ui/core': 0.0.4_react-dom@17.0.2
       '@turbospace/core': link:../../packages/core
       clsx: 1.1.1
       next: 12.1.2_react-dom@17.0.2+react@17.0.2
@@ -1288,10 +1288,10 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.11
     dev: true
 
-  /@literal-ui/core/0.0.2_react-dom@17.0.2:
-    resolution: {integrity: sha512-0KAtm3uiRnW0fOMe+dvm9AWnjyiNFS9ahL+vq5e+yRFG1Njoqa2jocUcU0JQZtSNXTO3+gdHIO/5ZCyLJPiZXQ==}
+  /@literal-ui/core/0.0.4_react-dom@17.0.2:
+    resolution: {integrity: sha512-M1iJ9tIDP+UzHf1iSrzPvG5AFC5FfEW5dcHPAktnEb7iUhfTM/taWDTQjmhf5QyhwxZMbYM5VFhp6h5VoCuEyQ==}
     dependencies:
-      '@literal-ui/hooks': 0.0.2_react-dom@17.0.2
+      '@literal-ui/hooks': 0.0.3_react-dom@17.0.2
       clsx: 1.1.1
       react: 17.0.2
       react-icons: 4.3.1_react@17.0.2
@@ -1299,8 +1299,8 @@ packages:
       - react-dom
     dev: false
 
-  /@literal-ui/hooks/0.0.2_react-dom@17.0.2:
-    resolution: {integrity: sha512-vUGn0yuruWFI56x01x0x/248CGR2h+hTWufoggCrEVVdzLj4BR1O0+8nj+gpXiGU8HS73l3giuOy1yAuw4PTFw==}
+  /@literal-ui/hooks/0.0.3_react-dom@17.0.2:
+    resolution: {integrity: sha512-8zJIw/177Om5eKY7mZXZP/AGOT/CVBb0odkJliMnsLZhFEt4GhaJU/WdY2J6Hli08Cfe/Tzbvz1FQcpL9PYaLw==}
     dependencies:
       react: 17.0.2
       use-local-storage-state: 16.0.1_react-dom@17.0.2+react@17.0.2

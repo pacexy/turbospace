@@ -1,29 +1,16 @@
 import './styles.css'
 
+import { LiteralProvider } from '@literal-ui/core'
 import { AppProps } from 'next/app'
+
+import { Layout } from '../components'
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+    <LiteralProvider>
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    </LiteralProvider>
   )
-}
-
-const Layout: React.FC = ({ children }) => {
-  return (
-    <>
-      <Header />
-      <main>{children}</main>
-      <Footer />
-    </>
-  )
-}
-
-const Footer: React.FC = () => {
-  return <div></div>
-}
-
-const Header: React.FC = () => {
-  return <div></div>
 }
