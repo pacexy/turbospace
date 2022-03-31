@@ -4,6 +4,7 @@ import {
   ColorScheme,
   NavDrawer,
   NavBar,
+  Button,
 } from '@literal-ui/core'
 import { MdCheck } from 'react-icons/md'
 import { RiGithubFill } from 'react-icons/ri'
@@ -38,6 +39,8 @@ export const Layout: React.FC = ({ children }) => {
         headline={<TopAppBar.Title>Turbospace</TopAppBar.Title>}
         trailing={
           <TopAppBar.Trailing>
+            <Button variant="text">Log in</Button>
+            <Button variant="tonal">Sign up</Button>
             <IconButton
               renderAs="a"
               href="https://github.com/pacexy/turbospace"
