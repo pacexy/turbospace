@@ -1,5 +1,5 @@
 {
-  "name": "@turbospace/core",
+  "name": "@turbospace/internal",
   "version": "0.0.0",
   "main": "./index.tsx",
   "types": "./index.tsx",

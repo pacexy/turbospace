@@ -1,5 +1,5 @@
 const withPWA = require('next-pwa')
-const withTM = require('next-transpile-modules')(['@turbospace/core'])
+const withTM = require('next-transpile-modules')(['@turbospace/internal'])
 
 /**
  * @type {import('next').NextConfig}
