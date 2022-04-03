@@ -1,5 +1,5 @@
 {
-  "name": "@turbospace/web",
+  "name": "@turbospace/next",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,13 +9,19 @@
   },
   "dependencies": {
     "@literal-ui/core": "^0.0.5",
+    "@mdx-js/loader": "^2.1.0",
+    "@mdx-js/react": "^2.1.0",
     "@turbospace/internal": "workspace:*",
     "babel-loader": "^8.2.4",
     "clsx": "^1.1.1",
+    "gray-matter": "^4.0.3",
     "next": "12.1.4",
+    "next-seo": "^5.3.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-icons": "^4.3.1"
+    "react-icons": "^4.3.1",
+    "rehype-pretty-code": "^0.2.5",
+    "shiki": "^0.10.1"
   },
   "devDependencies": {
     "@literal-ui/plugins": "^0.0.2",
