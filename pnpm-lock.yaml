@@ -59,25 +59,25 @@ importers:
       next-seo: ^5.3.0
       next-transpile-modules: 9.0.0
       postcss: 8.4.12
-      react: 17.0.2
-      react-dom: 17.0.2
+      react: 18.0.0
+      react-dom: 18.0.0
       react-icons: ^4.3.1
       rehype-pretty-code: ^0.2.5
       shiki: ^0.10.1
       tailwindcss: 3.0.23
     dependencies:
-      '@literal-ui/core': 0.0.5_react-dom@17.0.2
+      '@literal-ui/core': 0.0.5_react-dom@18.0.0
       '@mdx-js/loader': 2.1.1
-      '@mdx-js/react': 2.1.1_react@17.0.2
+      '@mdx-js/react': 2.1.1_react@18.0.0
       '@turbospace/internal': link:../../packages/internal
       babel-loader: 8.2.4
       clsx: 1.1.1
       gray-matter: 4.0.3
-      next: 12.1.4_react-dom@17.0.2+react@17.0.2
-      next-seo: 5.3.0_f3299b186fe279e9e6c95022815bb28f
-      react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
-      react-icons: 4.3.1_react@17.0.2
+      next: 12.1.4_react-dom@18.0.0+react@18.0.0
+      next-seo: 5.3.0_c0abbb53577d424fe320649841fdc7d4
+      react: 18.0.0
+      react-dom: 18.0.0_react@18.0.0
+      react-icons: 4.3.1_react@18.0.0
       rehype-pretty-code: 0.2.5_shiki@0.10.1
       shiki: 0.10.1
     devDependencies:
@@ -1313,10 +1313,10 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.11
     dev: true
 
-  /@literal-ui/core/0.0.5_react-dom@17.0.2:
+  /@literal-ui/core/0.0.5_react-dom@18.0.0:
     resolution: {integrity: sha512-sgYHERlGj1v3NR459+gKynA4YHZb5Sjr181UWZUg6a6w+YI7kBpVp2ZA0jpPjTnEM5B0o337lypWbXbLMU8zaQ==}
     dependencies:
-      '@literal-ui/hooks': 0.0.3_react-dom@17.0.2
+      '@literal-ui/hooks': 0.0.3_react-dom@18.0.0
       clsx: 1.1.1
       react: 17.0.2
       react-icons: 4.3.1_react@17.0.2
@@ -1325,11 +1325,11 @@ packages:
       - react-dom
     dev: false
 
-  /@literal-ui/hooks/0.0.3_react-dom@17.0.2:
+  /@literal-ui/hooks/0.0.3_react-dom@18.0.0:
     resolution: {integrity: sha512-8zJIw/177Om5eKY7mZXZP/AGOT/CVBb0odkJliMnsLZhFEt4GhaJU/WdY2J6Hli08Cfe/Tzbvz1FQcpL9PYaLw==}
     dependencies:
       react: 17.0.2
-      use-local-storage-state: 16.0.1_react-dom@17.0.2+react@17.0.2
+      use-local-storage-state: 16.0.1_react-dom@18.0.0+react@17.0.2
     transitivePeerDependencies:
       - react-dom
     dev: false
@@ -1382,14 +1382,14 @@ packages:
       - supports-color
     dev: false
 
-  /@mdx-js/react/2.1.1_react@17.0.2:
+  /@mdx-js/react/2.1.1_react@18.0.0:
     resolution: {integrity: sha512-7zlZDf5xmWH8I0kFE4DG91COOkxjaW9DX5f1HWztZpFcVua2gJgMYfIkFaDpO/DH/tWi6Mz+OheW4194r15igg==}
     peerDependencies:
       react: '>=16'
     dependencies:
       '@types/mdx': 2.0.1
       '@types/react': 17.0.43
-      react: 17.0.2
+      react: 18.0.0
     dev: false
 
   /@next/env/12.1.4:
@@ -4613,7 +4613,7 @@ packages:
       babel-loader: 8.2.4
       clean-webpack-plugin: 4.0.0
       globby: 11.1.0
-      next: 12.1.4_react-dom@17.0.2+react@17.0.2
+      next: 12.1.4_react-dom@18.0.0+react@18.0.0
       terser-webpack-plugin: 5.3.1
       workbox-webpack-plugin: 6.5.2
       workbox-window: 6.5.2
@@ -4627,16 +4627,16 @@ packages:
       - webpack
     dev: true
 
-  /next-seo/5.3.0_f3299b186fe279e9e6c95022815bb28f:
+  /next-seo/5.3.0_c0abbb53577d424fe320649841fdc7d4:
     resolution: {integrity: sha512-ofXUGGZ4l6j4oCxu6aecTWTkNbN/g+zbYUOvLRBKl96bJrt+WWyo4riRxQqqczvk1niGH4ibN7cCEwVjlYZs2g==}
     peerDependencies:
       next: ^8.1.1-canary.54 || >=9.0.0
       react: '>=16.0.0'
       react-dom: '>=16.0.0'
     dependencies:
-      next: 12.1.4_react-dom@17.0.2+react@17.0.2
-      react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
+      next: 12.1.4_react-dom@18.0.0+react@18.0.0
+      react: 18.0.0
+      react-dom: 18.0.0_react@18.0.0
     dev: false
 
   /next-transpile-modules/9.0.0:
@@ -4646,7 +4646,7 @@ packages:
       escalade: 3.1.1
     dev: true
 
-  /next/12.1.4_react-dom@17.0.2+react@17.0.2:
+  /next/12.1.4_react-dom@18.0.0+react@18.0.0:
     resolution: {integrity: sha512-DA4g97BM4Z0nKtDvCTm58RxdvoQyYzeg0AeVbh0N4Y/D8ELrNu47lQeEgRGF8hV4eQ+Sal90zxrJQQG/mPQ8CQ==}
     engines: {node: '>=12.22.0'}
     hasBin: true
@@ -4667,9 +4667,9 @@ packages:
       '@next/env': 12.1.4
       caniuse-lite: 1.0.30001319
       postcss: 8.4.5
-      react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
-      styled-jsx: 5.0.1_react@17.0.2
+      react: 18.0.0
+      react-dom: 18.0.0_react@18.0.0
+      styled-jsx: 5.0.1_react@18.0.0
     optionalDependencies:
       '@next/swc-android-arm-eabi': 12.1.4
       '@next/swc-android-arm64': 12.1.4
@@ -5115,15 +5115,14 @@ packages:
       safe-buffer: 5.2.1
     dev: true
 
-  /react-dom/17.0.2_react@17.0.2:
-    resolution: {integrity: sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA==}
+  /react-dom/18.0.0_react@18.0.0:
+    resolution: {integrity: sha512-XqX7uzmFo0pUceWFCt7Gff6IyIMzFUn7QMZrbrQfGxtaxXZIcGQzoNpRLE3fQLnS4XzLLPMZX2T9TRcSrasicw==}
     peerDependencies:
-      react: 17.0.2
+      react: ^18.0.0
     dependencies:
       loose-envify: 1.4.0
-      object-assign: 4.1.1
-      react: 17.0.2
-      scheduler: 0.20.2
+      react: 18.0.0
+      scheduler: 0.21.0
     dev: false
 
   /react-icons/4.3.1_react@17.0.2:
@@ -5132,6 +5131,14 @@ packages:
       react: '*'
     dependencies:
       react: 17.0.2
+    dev: false
+
+  /react-icons/4.3.1_react@18.0.0:
+    resolution: {integrity: sha512-cB10MXLTs3gVuXimblAdI71jrJx8njrJZmNMEMC+sQu5B/BIOmlsAjskdqpn81y8UBVEGuHODd7/ci5DvoSzTQ==}
+    peerDependencies:
+      react: '*'
+    dependencies:
+      react: 18.0.0
     dev: false
 
   /react-is/16.13.1:
@@ -5144,6 +5151,13 @@ packages:
     dependencies:
       loose-envify: 1.4.0
       object-assign: 4.1.1
+    dev: false
+
+  /react/18.0.0:
+    resolution: {integrity: sha512-x+VL6wbT4JRVPm7EGxXhZ8w8LTROaxPXOqhlGyVSrv0sB1jkyFGgXxJ8LVoPRLvPR6/CIZGFmfzqUa2NYeMr2A==}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      loose-envify: 1.4.0
     dev: false
 
   /readdirp/3.6.0:
@@ -5389,11 +5403,10 @@ packages:
     resolution: {integrity: sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==}
     dev: true
 
-  /scheduler/0.20.2:
-    resolution: {integrity: sha512-2eWfGgAqqWFGqtdMmcL5zCMK1U8KlXv8SQFGglL3CEtd0aDVDWgeF/YoCmvln55m5zSk3J/20hTaSBeSObsQDQ==}
+  /scheduler/0.21.0:
+    resolution: {integrity: sha512-1r87x5fz9MXqswA2ERLo0EbOAU74DpIUO090gIasYTqlVoJeMcl+Z1Rg7WHz+qtPujhS/hGIt9kxZOYBV3faRQ==}
     dependencies:
       loose-envify: 1.4.0
-      object-assign: 4.1.1
     dev: false
 
   /schema-utils/2.7.1:
@@ -5672,7 +5685,7 @@ packages:
       inline-style-parser: 0.1.1
     dev: false
 
-  /styled-jsx/5.0.1_react@17.0.2:
+  /styled-jsx/5.0.1_react@18.0.0:
     resolution: {integrity: sha512-+PIZ/6Uk40mphiQJJI1202b+/dYeTVd9ZnMPR80pgiWbjIwvN2zIp4r9et0BgqBuShh48I0gttPlAXA7WVvBxw==}
     engines: {node: '>= 12.0.0'}
     peerDependencies:
@@ -5685,7 +5698,7 @@ packages:
       babel-plugin-macros:
         optional: true
     dependencies:
-      react: 17.0.2
+      react: 18.0.0
     dev: false
 
   /sucrase/3.20.3:
@@ -6220,7 +6233,7 @@ packages:
     dependencies:
       punycode: 2.1.1
 
-  /use-local-storage-state/16.0.1_react-dom@17.0.2+react@17.0.2:
+  /use-local-storage-state/16.0.1_react-dom@18.0.0+react@17.0.2:
     resolution: {integrity: sha512-X1tcTGB9/iU2x+0uvs2ZhadQY9nxJS9oB+Hsajj3z8UOPGnigkMm52U84P7k2Bgpbgw0IK6OyIWC0jNSVLn6Yg==}
     engines: {node: '>=12'}
     peerDependencies:
@@ -6228,7 +6241,7 @@ packages:
       react-dom: '>=16.8.0'
     dependencies:
       react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
+      react-dom: 18.0.0_react@18.0.0
     dev: false
 
   /util-deprecate/1.0.2:
