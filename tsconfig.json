@@ -15,7 +15,8 @@
     "strict": true,
     "baseUrl": ".",
     "paths": {
-      "@turbospace/react-library": ["./packages/react-library/src/index.ts"]
+      "@turbospace/react-library": ["./packages/react-library/src/index.ts"],
+      "@turbospace/ts-library": ["./packages/ts-library/src/index.ts"]
     }
   },
   "exclude": ["node_modules"]

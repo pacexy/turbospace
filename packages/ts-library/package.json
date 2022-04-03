@@ -1,0 +1,26 @@
+{
+  "name": "@turbospace/ts-library",
+  "version": "0.0.0",
+  "license": "MIT",
+  "description": "",
+  "keywords": [],
+  "author": "pacexy <pacexy@gmail.com>",
+  "homepage": "https://github.com/turbospace/ts-library#readme",
+  "bugs": {
+    "url": "https://github.com/turbospace/ts-library/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turbospace/ts-library.git"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "build": "rimraf dist && tsup src/index.ts --dts --format esm,cjs"
+  },
+  "files": [
+    "dist"
+  ]
+}
