@@ -6,7 +6,6 @@
   "license": "MIT",
   "devDependencies": {
     "@types/react": "17.0.43",
-    "@types/react-dom": "17.0.14",
-    "@turbospace/tsconfig": "workspace:*"
+    "@types/react-dom": "17.0.14"
   }
 }
