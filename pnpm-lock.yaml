@@ -45,7 +45,7 @@ importers:
   apps/next:
     specifiers:
       '@literal-ui/core': ^0.0.5
-      '@literal-ui/plugins': ^0.0.2
+      '@literal-ui/plugins': 0.0.3
       '@mdx-js/loader': ^2.1.0
       '@mdx-js/react': ^2.1.0
       '@turbospace/internal': workspace:*
@@ -83,7 +83,7 @@ importers:
       rehype-pretty-code: 0.2.5_shiki@0.10.1
       shiki: 0.10.1
     devDependencies:
-      '@literal-ui/plugins': 0.0.2_autoprefixer@10.4.4
+      '@literal-ui/plugins': 0.0.3_tailwindcss@3.0.23
       '@types/node': 17.0.22
       '@types/react': 17.0.43
       autoprefixer: 10.4.4_postcss@8.4.12
@@ -1518,13 +1518,12 @@ packages:
       - react-dom
     dev: false
 
-  /@literal-ui/plugins/0.0.2_autoprefixer@10.4.4:
-    resolution: {integrity: sha512-cTNoJw0muX8HzQkP2QpCr7ZjN+i3dDj6W/jyO5ihr08it4IwciU2TvovdRWlnPjQdGiJApinL+QVSmcjg4Zgfg==}
+  /@literal-ui/plugins/0.0.3_tailwindcss@3.0.23:
+    resolution: {integrity: sha512-NxSGQAmcPi7wWQgaNKOZhGZxNWkrjOeJGlWnBRCDw3c446lUzowD9LLJueaIyB/l/ebZrw/7nw+sa6FfyxDBpg==}
+    peerDependencies:
+      tailwindcss: '>=3.0.0'
     dependencies:
       tailwindcss: 3.0.23_autoprefixer@10.4.4
-    transitivePeerDependencies:
-      - autoprefixer
-      - ts-node
     dev: true
 
   /@manypkg/find-root/1.1.0:
