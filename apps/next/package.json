@@ -12,6 +12,8 @@
     "@mdx-js/loader": "^2.1.0",
     "@mdx-js/react": "^2.1.0",
     "@turbospace/internal": "workspace:*",
+    "@turbospace/react-library": "workspace:*",
+    "@turbospace/ts-library": "workspace:*",
     "babel-loader": "^8.2.4",
     "clsx": "^1.1.1",
     "gray-matter": "^4.0.3",
