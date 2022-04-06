@@ -1,8 +1,10 @@
+const { join } = require('path')
+
 const withPWA = require('next-pwa')
 const withTM = require('next-transpile-modules')([
   '@turbospace/internal',
-  '@turbospace/react-library',
-  '@turbospace/ts-library',
+  join(__dirname, '../../packages/react-library'),
+  join(__dirname, '../../packages/ts-library'),
 ])
 
 /**
