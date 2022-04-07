@@ -52,7 +52,7 @@ importers:
       '@mdx-js/react': ^2.1.0
       '@turbospace/internal': workspace:*
       '@types/node': 17.0.22
-      '@types/react': 17.0.43
+      '@types/react': 17.0.44
       autoprefixer: 10.4.4
       babel-loader: ^8.2.4
       clsx: ^1.1.1
@@ -87,7 +87,7 @@ importers:
     devDependencies:
       '@literal-ui/plugins': 0.0.3_tailwindcss@3.0.23
       '@types/node': 17.0.22
-      '@types/react': 17.0.43
+      '@types/react': 17.0.44
       autoprefixer: 10.4.4_postcss@8.4.12
       m3-tokens: 0.0.3
       next-pwa: 5.4.6_next@12.1.4
@@ -97,20 +97,20 @@ importers:
 
   packages/internal:
     specifiers:
-      '@types/react': 17.0.43
+      '@types/react': 17.0.44
       '@types/react-dom': 17.0.14
     devDependencies:
-      '@types/react': 17.0.43
+      '@types/react': 17.0.44
       '@types/react-dom': 17.0.14
 
   packages/react-library:
     specifiers:
-      '@types/react': 17.0.43
+      '@types/react': 17.0.44
       '@types/react-dom': 17.0.14
       react: 18.0.0
       react-dom: 18.0.0
     devDependencies:
-      '@types/react': 17.0.43
+      '@types/react': 17.0.44
       '@types/react-dom': 17.0.14
       react: 18.0.0
       react-dom: 18.0.0_react@18.0.0
@@ -1621,7 +1621,7 @@ packages:
       react: '>=16'
     dependencies:
       '@types/mdx': 2.0.1
-      '@types/react': 17.0.43
+      '@types/react': 17.0.44
       react: 18.0.0
     dev: false
 
@@ -1942,11 +1942,11 @@ packages:
   /@types/react-dom/17.0.14:
     resolution: {integrity: sha512-H03xwEP1oXmSfl3iobtmQ/2dHF5aBHr8aUMwyGZya6OW45G+xtdzmq6HkncefiBt5JU8DVyaWl/nWZbjZCnzAQ==}
     dependencies:
-      '@types/react': 17.0.43
+      '@types/react': 17.0.44
     dev: true
 
-  /@types/react/17.0.43:
-    resolution: {integrity: sha512-8Q+LNpdxf057brvPu1lMtC5Vn7J119xrP1aq4qiaefNioQUYANF/CYeK4NsKorSZyUGJ66g0IM+4bbjwx45o2A==}
+  /@types/react/17.0.44:
+    resolution: {integrity: sha512-Ye0nlw09GeMp2Suh8qoOv0odfgCoowfM/9MG6WeRD60Gq9wS90bdkdRtYbRkNhXOpG4H+YXGvj4wOWhAC0LJ1g==}
     dependencies:
       '@types/prop-types': 15.7.4
       '@types/scheduler': 0.16.2
