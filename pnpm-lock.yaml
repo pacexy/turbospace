@@ -98,20 +98,20 @@ importers:
   packages/internal:
     specifiers:
       '@types/react': 17.0.43
-      '@types/react-dom': 17.0.14
+      '@types/react-dom': 17.0.15
     devDependencies:
       '@types/react': 17.0.43
-      '@types/react-dom': 17.0.14
+      '@types/react-dom': 17.0.15
 
   packages/react-library:
     specifiers:
       '@types/react': 17.0.43
-      '@types/react-dom': 17.0.14
+      '@types/react-dom': 17.0.15
       react: 18.0.0
       react-dom: 18.0.0
     devDependencies:
       '@types/react': 17.0.43
-      '@types/react-dom': 17.0.14
+      '@types/react-dom': 17.0.15
       react: 18.0.0
       react-dom: 18.0.0_react@18.0.0
 
@@ -1939,8 +1939,8 @@ packages:
   /@types/prop-types/15.7.4:
     resolution: {integrity: sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==}
 
-  /@types/react-dom/17.0.14:
-    resolution: {integrity: sha512-H03xwEP1oXmSfl3iobtmQ/2dHF5aBHr8aUMwyGZya6OW45G+xtdzmq6HkncefiBt5JU8DVyaWl/nWZbjZCnzAQ==}
+  /@types/react-dom/17.0.15:
+    resolution: {integrity: sha512-Tr9VU9DvNoHDWlmecmcsE5ZZiUkYx+nKBzum4Oxe1K0yJVyBlfbq7H3eXjxXqJczBKqPGq3EgfTru4MgKb9+Yw==}
     dependencies:
       '@types/react': 17.0.43
     dev: true
