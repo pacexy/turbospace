@@ -46,7 +46,7 @@ importers:
 
   apps/next:
     specifiers:
-      '@literal-ui/core': ^0.0.6
+      '@literal-ui/core': 0.0.7
       '@literal-ui/plugins': ^0.0.3
       '@mdx-js/loader': ^2.1.0
       '@mdx-js/react': ^2.1.0
@@ -70,7 +70,7 @@ importers:
       shiki: ^0.10.1
       tailwindcss: 3.0.23
     dependencies:
-      '@literal-ui/core': 0.0.6_6f59ad6826e985587dc9ea5f880b28d3
+      '@literal-ui/core': 0.0.7_6f59ad6826e985587dc9ea5f880b28d3
       '@mdx-js/loader': 2.1.1
       '@mdx-js/react': 2.1.1_react@18.0.0
       '@turbospace/internal': link:../../packages/internal
@@ -1522,8 +1522,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.11
     dev: true
 
-  /@literal-ui/core/0.0.6_6f59ad6826e985587dc9ea5f880b28d3:
-    resolution: {integrity: sha512-8QEt0kDuKmTBIlT7xyETlwBGCziBqcOUXsO6f5pXJ8T5bec8c/w1VqElgbxvaVWH1qwh5Ve5PEBFNHhttXpeXA==}
+  /@literal-ui/core/0.0.7_6f59ad6826e985587dc9ea5f880b28d3:
+    resolution: {integrity: sha512-nimsA0cGuRUYfx/d+B7TByz/+9RXEzUpFD0WKHV5fkl280ojPi3d8iFJFUS/oBYvjDOBjzFg9V91s7JHMuo/OQ==}
     peerDependencies:
       react: '>=16.9.0'
       react-icons: '>=4.1.0'
