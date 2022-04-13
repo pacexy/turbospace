@@ -46,7 +46,8 @@ importers:
 
   apps/next:
     specifiers:
-      '@literal-ui/core': ^0.0.6
+      '@literal-ui/core': ^0.0.10
+      '@literal-ui/next': ^0.0.3
       '@literal-ui/plugins': ^0.0.3
       '@mdx-js/loader': ^2.1.0
       '@mdx-js/react': ^2.1.0
@@ -70,7 +71,8 @@ importers:
       shiki: ^0.10.1
       tailwindcss: 3.0.24
     dependencies:
-      '@literal-ui/core': 0.0.6_6f59ad6826e985587dc9ea5f880b28d3
+      '@literal-ui/core': 0.0.10_6f59ad6826e985587dc9ea5f880b28d3
+      '@literal-ui/next': 0.0.3_next@12.1.5+react@18.0.0
       '@mdx-js/loader': 2.1.1
       '@mdx-js/react': 2.1.1_react@18.0.0
       '@turbospace/internal': link:../../packages/internal
@@ -1522,13 +1524,13 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.11
     dev: true
 
-  /@literal-ui/core/0.0.6_6f59ad6826e985587dc9ea5f880b28d3:
-    resolution: {integrity: sha512-8QEt0kDuKmTBIlT7xyETlwBGCziBqcOUXsO6f5pXJ8T5bec8c/w1VqElgbxvaVWH1qwh5Ve5PEBFNHhttXpeXA==}
+  /@literal-ui/core/0.0.10_6f59ad6826e985587dc9ea5f880b28d3:
+    resolution: {integrity: sha512-QMMcsy9gYb9NvgtQETgnTD8FwXpvcNmtMxHVMXpXhJWJcR9N0b4/UoOFy3NYNJYfTv62wgpjt5GZcoGTgMlAHA==}
     peerDependencies:
       react: '>=16.9.0'
       react-icons: '>=4.1.0'
     dependencies:
-      '@literal-ui/hooks': 0.0.4_react-dom@18.0.0+react@18.0.0
+      '@literal-ui/hooks': 0.0.6_react-dom@18.0.0+react@18.0.0
       clsx: 1.1.1
       react: 18.0.0
       react-icons: 4.3.1_react@18.0.0
@@ -1537,8 +1539,8 @@ packages:
       - react-dom
     dev: false
 
-  /@literal-ui/hooks/0.0.4_react-dom@18.0.0+react@18.0.0:
-    resolution: {integrity: sha512-TMIRn0W5mjDGMaX1AWEnqdbv8NqEjz3fC+VUP1coUBH8TiXFj6xttm0CKd+QQpLiTI7UBtf+S1j7x0ZeRtjTlA==}
+  /@literal-ui/hooks/0.0.6_react-dom@18.0.0+react@18.0.0:
+    resolution: {integrity: sha512-DMC2OVTpjMhmGNZQSuDv4+Sey1giWkb9ki31FfaK+MLjYMHTT9H5QNoLNf29gyP/gaq6g3R2q2+m3iE4NQdCRg==}
     peerDependencies:
       react: '>=16.9.0'
     dependencies:
@@ -1546,6 +1548,17 @@ packages:
       use-local-storage-state: 16.0.1_react-dom@18.0.0+react@18.0.0
     transitivePeerDependencies:
       - react-dom
+    dev: false
+
+  /@literal-ui/next/0.0.3_next@12.1.5+react@18.0.0:
+    resolution: {integrity: sha512-aKxmWz9kTTObf7dL5aij020B+WlkEKB0reCJK3I+NxUvSaxkjXnOB4BScrkrn8oUCmsycLRo/A6nQRioQvtGeA==}
+    peerDependencies:
+      next: '>=12.0.0'
+      react: '>=16.9.0'
+    dependencies:
+      next: 12.1.5_react-dom@18.0.0+react@18.0.0
+      react: 18.0.0
+      type-fest: 2.12.2
     dev: false
 
   /@literal-ui/plugins/0.0.3_tailwindcss@3.0.24:
