@@ -66,7 +66,7 @@ importers:
       react: 18.0.0
       react-dom: 18.0.0
       react-icons: ^4.3.1
-      rehype-pretty-code: ^0.2.5
+      rehype-pretty-code: 0.3.0
       shiki: ^0.10.1
       tailwindcss: 3.0.24
     dependencies:
@@ -82,7 +82,7 @@ importers:
       react: 18.0.0
       react-dom: 18.0.0_react@18.0.0
       react-icons: 4.3.1_react@18.0.0
-      rehype-pretty-code: 0.2.5_shiki@0.10.1
+      rehype-pretty-code: 0.3.0_shiki@0.10.1
       shiki: 0.10.1
     devDependencies:
       '@literal-ui/plugins': 0.0.3_tailwindcss@3.0.24
@@ -5864,8 +5864,8 @@ packages:
       jsesc: 0.5.0
     dev: true
 
-  /rehype-pretty-code/0.2.5_shiki@0.10.1:
-    resolution: {integrity: sha512-Gm7EquFGiM8ucJ2neHKzSmV5Nb1b6dBQlTEXyWbGUZZQF5sJc5RI8yw2v9C1swomqyINil4vk5T6jNOkbHtEDA==}
+  /rehype-pretty-code/0.3.0_shiki@0.10.1:
+    resolution: {integrity: sha512-rcMkAbugb+7SkA6WvsfhhHoaXLh7p9MCzZGSTR8Qf/AaB0EHulAjw8N31UKRrUWordYMkeWIpSrMSTLF96Ty2g==}
     engines: {node: ^12.16.0 || >=13.2.0}
     peerDependencies:
       shiki: '*'
