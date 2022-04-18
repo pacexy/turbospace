@@ -8,12 +8,6 @@ node_modules
 # testing
 coverage
 
-# next.js
-.next/
-out/
-build
-dist
-
 # misc
 .DS_Store
 *.pem
@@ -32,8 +26,3 @@ yarn-error.log*
 
 # turbo
 .turbo
-
-# PWA
-**/public/workbox-*
-**/public/sw.*
-**/public/fallback-*

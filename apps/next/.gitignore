@@ -1,0 +1,10 @@
+# next.js
+.next/
+out/
+build
+dist
+
+# PWA
+**/public/workbox-*
+**/public/sw.*
+**/public/fallback-*

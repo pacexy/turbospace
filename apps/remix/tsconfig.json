@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.json",
+  "include": ["remix.env.d.ts", "**/*.ts", "**/*.tsx"],
+  "compilerOptions": {
+    "lib": ["DOM", "DOM.Iterable", "ES2019"],
+    "jsx": "react-jsx",
+    "resolveJsonModule": true,
+    "target": "ES2019",
+
+    // Remix takes care of building everything in `remix build`.
+    "noEmit": true
+  }
+}
