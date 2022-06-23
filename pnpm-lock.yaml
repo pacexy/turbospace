@@ -112,7 +112,7 @@ importers:
       '@remix-run/serve': ^1.4.0
       '@remix-run/vercel': ^1.4.0
       '@types/react': ^17.0.24
-      '@types/react-dom': ^17.0.9
+      '@types/react-dom': 18.0.5
       clsx: ^1.1.1
       m3-tokens: 0.0.3
       react: ^17.0.2
@@ -138,27 +138,27 @@ importers:
       '@remix-run/eslint-config': 1.4.0_db742c39550b9444398d2fe66d1a196e
       '@remix-run/serve': 1.4.0_react-dom@17.0.2+react@17.0.2
       '@types/react': 17.0.43
-      '@types/react-dom': 17.0.15
+      '@types/react-dom': 18.0.5
       m3-tokens: 0.0.3
       tailwindcss: 3.0.23
 
   packages/internal:
     specifiers:
       '@types/react': 17.0.47
-      '@types/react-dom': 18.0.0
+      '@types/react-dom': 18.0.5
     devDependencies:
       '@types/react': 17.0.47
-      '@types/react-dom': 18.0.0
+      '@types/react-dom': 18.0.5
 
   packages/react-library:
     specifiers:
       '@types/react': 17.0.47
-      '@types/react-dom': 18.0.0
+      '@types/react-dom': 18.0.5
       react: 18.2.0
       react-dom: 18.2.0
     devDependencies:
       '@types/react': 17.0.47
-      '@types/react-dom': 18.0.0
+      '@types/react-dom': 18.0.5
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
 
@@ -2480,14 +2480,8 @@ packages:
   /@types/prop-types/15.7.4:
     resolution: {integrity: sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==}
 
-  /@types/react-dom/17.0.15:
-    resolution: {integrity: sha512-Tr9VU9DvNoHDWlmecmcsE5ZZiUkYx+nKBzum4Oxe1K0yJVyBlfbq7H3eXjxXqJczBKqPGq3EgfTru4MgKb9+Yw==}
-    dependencies:
-      '@types/react': 17.0.43
-    dev: true
-
-  /@types/react-dom/18.0.0:
-    resolution: {integrity: sha512-49897Y0UiCGmxZqpC8Blrf6meL8QUla6eb+BBhn69dTXlmuOlzkfr7HHY/O8J25e1lTUMs+YYxSlVDAaGHCOLg==}
+  /@types/react-dom/18.0.5:
+    resolution: {integrity: sha512-OWPWTUrY/NIrjsAPkAk1wW9LZeIjSvkXRhclsFO8CZcZGCOg2G0YZy4ft+rOyYxy8B7ui5iZzi9OkDebZ7/QSA==}
     dependencies:
       '@types/react': 17.0.47
     dev: true
