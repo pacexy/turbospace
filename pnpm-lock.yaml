@@ -50,7 +50,7 @@ importers:
 
   apps/next:
     specifiers:
-      '@literal-ui/core': ^0.0.10
+      '@literal-ui/core': 0.0.13
       '@literal-ui/next': ^0.0.3
       '@literal-ui/plugins': ^0.0.3
       '@mdx-js/loader': ^2.1.0
@@ -75,7 +75,7 @@ importers:
       shiki: ^0.10.1
       tailwindcss: 3.0.24
     dependencies:
-      '@literal-ui/core': 0.0.10_abfe4eff1872e23c75d537d77dc035a8
+      '@literal-ui/core': 0.0.13_abfe4eff1872e23c75d537d77dc035a8
       '@literal-ui/next': 0.0.3_next@12.1.5+react@18.2.0
       '@mdx-js/loader': 2.1.1
       '@mdx-js/react': 2.1.1_react@18.2.0
@@ -103,7 +103,7 @@ importers:
 
   apps/remix:
     specifiers:
-      '@literal-ui/core': ^0.0.6
+      '@literal-ui/core': 0.0.13
       '@literal-ui/plugins': ^0.0.3
       '@remix-run/dev': ^1.4.0
       '@remix-run/eslint-config': ^1.4.0
@@ -122,7 +122,7 @@ importers:
       remix-utils: ^3.0.0
       tailwindcss: ^3.0.23
     dependencies:
-      '@literal-ui/core': 0.0.6_13f4986db51c2194fd8d13a21c826053
+      '@literal-ui/core': 0.0.13_13f4986db51c2194fd8d13a21c826053
       '@remix-run/node': 1.4.0_react-dom@17.0.2+react@17.0.2
       '@remix-run/react': 1.4.0_react-dom@17.0.2+react@17.0.2
       '@remix-run/vercel': 1.4.0_react-dom@17.0.2+react@17.0.2
@@ -1751,28 +1751,13 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.11
     dev: true
 
-  /@literal-ui/core/0.0.10_abfe4eff1872e23c75d537d77dc035a8:
-    resolution: {integrity: sha512-QMMcsy9gYb9NvgtQETgnTD8FwXpvcNmtMxHVMXpXhJWJcR9N0b4/UoOFy3NYNJYfTv62wgpjt5GZcoGTgMlAHA==}
+  /@literal-ui/core/0.0.13_13f4986db51c2194fd8d13a21c826053:
+    resolution: {integrity: sha512-WJtAFCpI4CBGbFLH1BXtzt1yzPlSha8SjLsFxAmoJOs0A/2pjKTHrcUHOnd+tye6hi8ifWIvMTmxwaAfEfsuXg==}
     peerDependencies:
       react: '>=16.9.0'
       react-icons: '>=4.1.0'
     dependencies:
-      '@literal-ui/hooks': 0.0.6_react-dom@18.2.0+react@18.2.0
-      clsx: 1.1.1
-      react: 18.2.0
-      react-icons: 4.3.1_react@18.2.0
-      type-fest: 2.12.2
-    transitivePeerDependencies:
-      - react-dom
-    dev: false
-
-  /@literal-ui/core/0.0.6_13f4986db51c2194fd8d13a21c826053:
-    resolution: {integrity: sha512-8QEt0kDuKmTBIlT7xyETlwBGCziBqcOUXsO6f5pXJ8T5bec8c/w1VqElgbxvaVWH1qwh5Ve5PEBFNHhttXpeXA==}
-    peerDependencies:
-      react: '>=16.9.0'
-      react-icons: '>=4.1.0'
-    dependencies:
-      '@literal-ui/hooks': 0.0.4_react-dom@17.0.2+react@17.0.2
+      '@literal-ui/hooks': 0.0.8_react-dom@17.0.2+react@17.0.2
       clsx: 1.1.1
       react: 17.0.2
       react-icons: 4.3.1_react@17.0.2
@@ -1781,8 +1766,23 @@ packages:
       - react-dom
     dev: false
 
-  /@literal-ui/hooks/0.0.4_react-dom@17.0.2+react@17.0.2:
-    resolution: {integrity: sha512-TMIRn0W5mjDGMaX1AWEnqdbv8NqEjz3fC+VUP1coUBH8TiXFj6xttm0CKd+QQpLiTI7UBtf+S1j7x0ZeRtjTlA==}
+  /@literal-ui/core/0.0.13_abfe4eff1872e23c75d537d77dc035a8:
+    resolution: {integrity: sha512-WJtAFCpI4CBGbFLH1BXtzt1yzPlSha8SjLsFxAmoJOs0A/2pjKTHrcUHOnd+tye6hi8ifWIvMTmxwaAfEfsuXg==}
+    peerDependencies:
+      react: '>=16.9.0'
+      react-icons: '>=4.1.0'
+    dependencies:
+      '@literal-ui/hooks': 0.0.8_react-dom@18.2.0+react@18.2.0
+      clsx: 1.1.1
+      react: 18.2.0
+      react-icons: 4.3.1_react@18.2.0
+      type-fest: 2.12.2
+    transitivePeerDependencies:
+      - react-dom
+    dev: false
+
+  /@literal-ui/hooks/0.0.8_react-dom@17.0.2+react@17.0.2:
+    resolution: {integrity: sha512-lyaQ+3TjnyWo5v1XVm/yTVTa5G/AObOB1UY4xa4zSG91aPaTyGH3W/XU6KKt6EBmNqLk/4riF8DtkBjiEDrZsg==}
     peerDependencies:
       react: '>=16.9.0'
     dependencies:
@@ -1792,8 +1792,8 @@ packages:
       - react-dom
     dev: false
 
-  /@literal-ui/hooks/0.0.6_react-dom@18.2.0+react@18.2.0:
-    resolution: {integrity: sha512-DMC2OVTpjMhmGNZQSuDv4+Sey1giWkb9ki31FfaK+MLjYMHTT9H5QNoLNf29gyP/gaq6g3R2q2+m3iE4NQdCRg==}
+  /@literal-ui/hooks/0.0.8_react-dom@18.2.0+react@18.2.0:
+    resolution: {integrity: sha512-lyaQ+3TjnyWo5v1XVm/yTVTa5G/AObOB1UY4xa4zSG91aPaTyGH3W/XU6KKt6EBmNqLk/4riF8DtkBjiEDrZsg==}
     peerDependencies:
       react: '>=16.9.0'
     dependencies:
