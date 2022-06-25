@@ -1,6 +1,6 @@
 import clsx from 'clsx'
 import { NextSeo } from 'next-seo'
-import React, { ComponentProps } from 'react'
+import React, { ComponentProps, PropsWithChildren } from 'react'
 
 interface HeadingProps extends ComponentProps<'h1'> {
   as?: 'h1' | 'h2' | 'h3'
@@ -39,5 +39,5 @@ export function withLayout({ title }: Meta) {
         <article>{children}</article>
       </>
     )
-  } as React.FC
+  } as React.FC<PropsWithChildren>
 }

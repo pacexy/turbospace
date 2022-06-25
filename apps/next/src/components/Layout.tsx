@@ -8,6 +8,7 @@ import {
   AppShell,
 } from '@literal-ui/core'
 import { Link } from '@literal-ui/next'
+import { PropsWithChildren } from 'react'
 import { MdCheck } from 'react-icons/md'
 import { RiGithubFill } from 'react-icons/ri'
 
@@ -29,7 +30,7 @@ const items = [
   { Icon: MdCheck, name: 'Label' },
 ]
 
-export const Layout: React.FC = ({ children }) => {
+export const Layout: React.FC<PropsWithChildren> = ({ children }) => {
   return (
     <AppShell
       className="mx-auto max-w-3xl p-4"
