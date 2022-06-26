@@ -14,8 +14,8 @@ module.exports = {
   settings: {
     next: {
       // relative path is based on the child `.eslintrc` file,
-      // for `apps/website`, we need to set to `../../apps/website`.
-      rootDir: path.join(__dirname, 'apps/website'),
+      // for `apps/next`, we need to set to `../../apps/next`.
+      rootDir: path.join(__dirname, 'apps/next'),
     },
   },
   parser: '@typescript-eslint/parser',
@@ -30,6 +30,7 @@ module.exports = {
       },
     ],
     '@typescript-eslint/no-var-requires': 'off',
+    '@typescript-eslint/ban-ts-comment': 'off',
     'import/order': [
       'error',
       {
