@@ -28,7 +28,7 @@
   "devDependencies": {
     "@literal-ui/plugins": "^0.0.4",
     "@types/node": "18.0.0",
-    "@types/react": "18.0.14",
+    "@types/react": "18.0.15",
     "autoprefixer": "10.4.7",
     "m3-tokens": "0.0.3",
     "next-pwa": "^5.5.4",
